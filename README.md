@@ -1,6 +1,8 @@
 # Schema Design
 To design the data storage schema for the data set "Iowa Liquor Sales 2017 thru 2023" I use the Star Schema model:
+
 Dimension Tables:
+
 date_dim: date_id, date, day, month, year, quarter, day_of_week
 Purpose: Allows for time-based data analysis, such as sales by day, month, quarter, year.
 
